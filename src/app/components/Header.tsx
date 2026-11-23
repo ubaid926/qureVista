@@ -41,13 +41,22 @@ export default function Header() {
       </a>
     </li>
 
-    {["About", "Services", "Portfolio", "Team", "Blog", "Contact"].map(
-      (label) => (
-        <li key={label}>
-          <span className="text-white">{label}</span>
-        </li>
-      ),
-    )}
+    {[
+      { label: "About",     href: "#about" },
+      { label: "Services",  href: "#services" },
+      { label: "Portfolio", href: "#portfolio" },
+      { label: "Team",      href: "#team" },
+      { label: "Contact",   href: "#contact" },
+    ].map(({ label, href }) => (
+      <li key={label}>
+        <a
+          href={href}
+          className="text-white transition-colors duration-200 hover:text-[#5787FF]"
+        >
+          {label}
+        </a>
+      </li>
+    ))}
   </ul>
 </nav>
       </div>

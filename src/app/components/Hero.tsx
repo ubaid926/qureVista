@@ -46,10 +46,10 @@ export default function Hero() {
         </h1>
 
         <a
-          href="#brand"
-          className="mt-8 inline-flex min-h-14 items-center justify-center rounded-full border border-[#5787FF] px-9 text-base font-bold uppercase tracking-wide transition-colors hover:bg-[#173885] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#5787FF]"
+          href="#portfolio"
+          className="mt-8 inline-flex min-h-14 items-center justify-center rounded-full bg-[#4f8ef7] px-9 text-base font-bold uppercase tracking-widest text-white transition-all duration-200 hover:bg-[#2d6fdf] hover:shadow-lg hover:shadow-[#4f8ef7]/40 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#5787FF]"
         >
-          Explore Qure Vista
+          View Our Work
         </a>
 
         <div
